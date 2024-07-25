@@ -5,3 +5,4 @@ Features:
 - Tailwind.css
 
 - global css file with css variables initialized
+- Data journalism layout
