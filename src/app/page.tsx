@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
 import { data } from "@/data/data";
 import { Barplot } from "@/dataviz/barplot/Barplot";
 
@@ -7,7 +6,7 @@ export default function Home() {
   return (
     <main className="container mx-auto px-4 py-6 " style={{ maxWidth: 600 }}>
       <div>
-        <h1>The Joke Tax Chronicles</h1>
+        <h1>Dataviz project Boilerplate</h1>
 
         <p>
           Once upon a time, in a far-off land, there was a very lazy king who

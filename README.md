@@ -12,3 +12,4 @@ Features:
   - note: go to settings -> action -> general and change "workflow permission" to allow read AND write permisisons
 - Good looking typography based on shadCnUI
 - Add a plot made with d3.js
+- Allow ts errors in app
