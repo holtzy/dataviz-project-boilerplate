@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { data } from "@/data/data";
+import { Barplot } from "@/dataviz/barplot/Barplot";
 
 export default function Home() {
   return (
@@ -43,6 +45,7 @@ export default function Home() {
           gloom. But there was one person who refused to let the king's
           foolishness get him down: a court jester named Jokester.
         </p>
+        <Button className="mt-6">This is a button</Button>
 
         <h3>The People's Rebellion</h3>
         <p>
@@ -51,7 +54,8 @@ export default function Home() {
           the joke.
         </p>
 
-        <Button>This is a button</Button>
+        <p>And here is a plot</p>
+        <Barplot width={500} height={400} data={data} />
       </div>
     </main>
   );
